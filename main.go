@@ -1,29 +1,24 @@
 // Programmer name: Brooke Mason
-// Date completed:  1/30/20
-// Description:Lab 1
+// Date completed: 2/6/20
+// Description: Lab 1.4.1
 
 package main
 
 import "fmt" 
 
 func main() {
-	fmt.Println("Hello world!")
-	fmt.Println("My name is Brooke, and my major is Computer Science.")
-	fmt.Println("This is my fourth semester at Butte College.")
-	fmt.Println("One of my favorite pastimes is making art.")
-  fmt.Println()
-  fmt.Println("H     H  EEEEE L     L    OOOOO")
-  fmt.Println("H     H  E     L     L    O   O")
-  fmt.Println("HHHHHHH  EEEEE L     L    O   O")
-  fmt.Println("H     H  E     L     L    O   O")
-  fmt.Println("H     H  EEEEE LLLL  LLLL OOOOO")
-
- fmt.Println()
-  fmt.Println("Chico California, 32.6 Degrees currently")
-  fmt.Println("Tomorrows high temp will be 54.3 degrees")
-fmt.Println()
-  fmt.Println("Today is Febuary 4th 2020.")
-  fmt.Println("02-04-2020")
+ //declare variable for favorite food and store your favorite food.
+  var food = "Pizza"
+  fmt.Println(food)
+  //declare variables for name and age (make sure they are appropriate data types)
+  var name string
+  var age int
+//ask the user to enter their answer for name and age.
+fmt.Println(" Please enter your answer for your name and age.")
+fmt.Scanln(&name, &age)
+ //output a welcome statement using their name
+ fmt.Println("Welcome", name,"!")
+ //output a statement that says At their age you enjoyed the favorite food
+ fmt.Println("At", age,"your favorite food was", food, "!")
 }
-
-
+ 
